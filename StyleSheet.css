@@ -1,0 +1,250 @@
+/*the following css code is what has been used to design the entirety of my app using ids to identify specific elements*/
+
+html {
+    height: auto;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+        
+    background-color: #ee9ca7; /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to left, #ee9ca7 , #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to left,  #ee9ca7 , #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#signup{
+   text-align:center;
+   padding:100px; 
+ }
+fieldset {
+  font-size:14px;    
+  padding:5px;    
+  width:500px;    
+  line-height:1.8;    
+  margin: 0 auto;
+  background-color: #fff;
+  border: #fff; 
+  border-radius: 10px;     
+ }
+
+h4{
+  text-align: center;  
+ }
+h2{
+  text-align: left; 
+  color: #DDD;
+  font-size: small;
+  margin-top: -20px;
+ }
+h1{
+    text-align: left;
+    color: #000;
+    font-family: fantasy;
+    margin-bottom: -20px;
+
+ }
+#header{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #fff; 
+    border-radius: 1px;
+}
+
+input#signUpTextbox{
+    background: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    margin: 10px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: #666; 
+    outline: none; 
+    height:40px; 
+    width: 400px; 
+    
+ }
+h3{
+    display: inline-grid;
+    text-align: right;
+    margin-top: -15px;
+    font-size: x-small;
+}
+input[type=submit]{
+    height:40px; 
+    width: 400px;
+    background: #ee9ca7; 
+    border: 1px solid #ee9ca7; 
+    border-radius: 5px; 
+    margin: 10px;
+    color: #fff;
+    
+}
+span#error{
+    padding: 0px;
+    color: #f00
+}
+#mainBody{   
+  padding:5px;    
+  width:1000px;  
+  min-height: 700px;
+  overflow: hidden;
+  height: auto;    
+  margin: 0 auto;
+  background-color: #fff;
+    
+}
+#mainH1{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+#mainH2{
+    text-align: center;
+    font-size: small;
+    color: #DDD;
+    margin-top: -60px;
+    
+}
+#navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+li{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+    margin: 0px; 
+    font-size: small;  
+}
+li:hover{
+    background-color: #ee9ca7;
+}
+#navLinks {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+#search{
+    font-size:14px;    
+    padding:5px;    
+    width:500px;    
+    line-height:1.8;    
+    margin: 90px auto;
+    background-color: #fff;
+    border: #fff; 
+    border-radius: 10px;
+}
+#searchH3{
+    text-align: center;
+    font-weight: normal;
+    font-size: small; 
+    
+        
+}
+label{
+    margin-left: 13px;
+    display: inline;
+    margin-right:30px;
+}
+input#searchTextbox{
+    background: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    margin-right: 70px;
+    margin-left: 10px;
+    box-shadow: 0 0 5px #DDD inset; 
+    color: #666; 
+    outline: none; 
+    height:25px; 
+    width: 50px; 
+    display: inline;
+ }
+input[type=radio]{
+    display: inline;
+    margin-left: 10px;
+    
+}
+#reH3{
+    color: #000;
+    margin-top: 30px;
+    text-align: left;
+    font-size: medium;
+}
+#sitterInfoBox{
+    float: right;
+    width: 600px;
+}
+img{
+    float: left;
+}
+#reviewBox{
+    float:left;
+    width: 1000px;
+    margin: 30px;
+    text-align: left;
+}
+#reviewBox h4{
+    text-align: left;
+}
+#enterReview{
+    float: right;
+    margin: 60px;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+}
+#firendsBook th, td, th {
+    padding-left: 100px;
+    text-align: left; 
+}
+#aH3{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+#contactBookLabel{
+    display: block;
+    text-align: center;
+    margin: 30px; 
+    font-size: large; 
+    font-weight: 500;
+}
+#showHideButton {
+    margin: 5px;
+    background: #ee9ca7;
+    border: 1px solid #ee9ca7;
+    color: #fff;
+}
+#popup{
+  font-size:14px;    
+  padding:5px;    
+  width:500px;    
+  line-height:1.8;    
+  margin: 0 auto;
+  background-color: #fff;
+  border: #fff; 
+  border-radius: 10px;  
+}
+img.aboutUs{
+    height: 400px;
+}
+#slideshow{
+    margin: auto;
+}
