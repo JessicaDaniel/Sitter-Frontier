@@ -18,7 +18,7 @@
         <h2 id="mainH2">Leaders of the Sitter March</h2>
          <!--navigation bar so users can easily navigate throught the app-->
         <ul id="navBar">
-            <li><a id="navLinks" href="Home.php.php">Home</a></li>
+            <li><a id="navLinks" href="Home.php">Home</a></li>
             <li><a id="navLinks" href="AboutUs.php">About Us</a></li>
             <li><a id="navLinks" href="ContactUs.php">Contact Us</a></li>
             <li><a id="navLinks" href="MyAccount.php">My Account</a></li>
